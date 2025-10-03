@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Fascinate&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Delius+Unicase:wght@400;700&family=Fascinate&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Cookie&family=Delius+Unicase:wght@400;700&family=Fascinate&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Cookie&family=Delius&family=Delius+Unicase:wght@400;700&family=Fascinate&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Homemade+Apple&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fundo de cima */
+header {
+    text-align: center;
+    padding: 3rem;
+    border-radius: 60px;
+    background: linear-gradient(to bottom, #FDA1A2, #A8D5E3);
+    margin : 1rem;
+}
+
+/* Coisinhas pra navegar no site*/
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    border: 1rem;
+
+}
+
+header nav a:hover {
+    color:white;
+}
+
+/* Título */
+header h1 {
+    font-family: "Delius Unicase", cursive;
+}
+
+/* Body do site*/
+body {
+    /*font-family: "Delius", cursive;*/
+    font-family: "Google Sans Code", monospace;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* parágrafos do body*/
+body p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* Título das sessões */
+body h2 {
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+}
+
+/*Título dos livros */
+body h3 {
+    font-family: "Delius Unicase", cursive;
+}
+
+/*#teste {
+    display : flex;
+    flex-direction: column;
+}*/
+
+img {
+    transition: transform 0.3s ease; /* suaviza o movimento */
+}
+
+img:hover {   
+    transform: scale(1.02);
+}
+
+/* Sessão lendo */
+#lendo {
+    background-color: #F2F0EA;
+    border: 2px solid #bbb6a6; 
+    border-radius: 80px;
+    padding: 2rem;
+    margin : 1rem;
+}
+
+/* Sessão quero ler*/
+#queroler {
+    background-color: #F2F0EA;
+    border: 2px solid #bbb6a6; 
+    border-radius: 80px;
+    padding: 2rem;
+    margin : 1rem;
+}
+
+/* Sessão lidos*/
+#lidos {
+    background-color: #F2F0EA;
+    border: 2px solid #bbb6a6; 
+    border-radius: 80px;
+    padding: 2rem;
+    margin : 1rem;
+}
+
+/* Sessão sobre mim */
+#sobremim {
+    background: linear-gradient(to bottom, #FDA1A2, #A8D5E3);
+    border-radius: 80px;
+    padding: 2rem;
+    margin : 1rem;
+}
+
+/* Separação entre os livros de quero ler */ 
+#internos0 {
+    background-color: #F2F0EA;
+    height: 2rem;
+}
+
+/* Separação entre os livros de lidos */
+#internos1 {
+    background-color: #F2F0EA;
+    height: 2rem;
+}
+
+
+
+
+
